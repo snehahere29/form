@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>JOB APPLICATION FORM</legend>
+                <div class="user_details">
+                    <div class="user_input">
+                        <span class= "details">FIRST NAME</span>
+                        <input type="text" placeholder="ENTER YOUR FIRST NAME" required class="input">
+                    </div>
+                </div>
+                <div class="user_details">
+                    <div class="user_input">
+                        <span class= "details">LAST NAME</span>
+                        <input type="text" placeholder="ENTER YOUR LAST NAME" required class="input">
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="user_details">
+                    <div class="user_input">
+                        <span class= "details">EMAIL</span>
+                        <input type="text" placeholder="XYZ@gmail.com" required class="input">
+                    </div>
+                </div>
+                <div class="user_details">
+                    <div class="user_input">
+                        <span class= "details">MOBILE NUMBER</span>
+                        <input type="text" placeholder="012-345-6789" required class="input">
+                    </div>
+                </div>
+                <div class="user_details">
+                    <div class="user_input">
+                        <span class= "details">DOB</span>
+                        <input type="date" required class="input">
+                    </div>
+                </div>
+                <div class="user_details">
+                    <div class="user_input">
+                        <span class= "details">SELECT</span>
+                        <select name is class="input_state" required class="input">
+                        <option>SELECT</option>
+                        <option>andhra pradesh</option>
+                        <option>goa</option>
+                        <option>haryana</option>
+                        <option>bihar</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="gender">
+                    <label class="gender_heading">GENDER</label>
+                    <div class="gender_box">
+                        <input type="radio" name="GENDER" id class="radio" required="">MALE
+                        <input type="radio" name="GENDER" id class="radio" required="">FEMALE
+                        <input type="radio" name="GENDER" id class="radio" required="">OTHER
+                    </div>
+                </div>
+                <div class="email">
+                    <span class="address">ADDRESS</span>
+                    <br>
+                    <textarea name id job application form placeholder="ENTER YOUR ADDRESS" class="textarea"></textarea>
+                </div>
+                <div class="gender">
+                    <label for class="gender_heading">QULAFICATION</label>
+                    <div class="gender_box">
+                        <input type="radio" name="QULAFICATION" id class="radio" required="">10
+                        <sup>TH </sup>
+                        <input type="radio" name="QULAFICATION" id class="radio" required="">12
+                        <sup>TH </sup>
+                        <input type="radio" name="QULAFICATION" id class="radio" required="">UNDER GRADUATE
+                        <input type="radio" name="QULAFICATION" id class="radio" required="">POST GRADUATE
+                    </div>
+                </div>
+                <div class="gender">
+                    <label for class="gender_heading">UPLOAD IMAGE</label>
+                    <div class="gender_box">
+                        <input type="file" accept="image/*" required class="file">
+                    </div>
+                </div>
+                <div class="allbutton">
+                    <button class="button">SAVE</button>
+                    <button class="button">RESET</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
